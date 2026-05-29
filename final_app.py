@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 from scipy import stats
 import statsmodels.api as sm
 import json
-
+import os
 # ----------------------------------------
 # 1. SAYFA AYARLARI VE RENK PALETLERİ
 # ----------------------------------------
@@ -18,8 +18,8 @@ st.set_page_config(page_title="E-Ticaret Veri Analizi Projesi", page_icon="📊"
 plotly_colors_app2 = ["#FF8C00", "#8A2BE2", "#FFA500", "#9370DB", "#FF7F50"]  # Turuncu-Mor
 plotly_colors_app1 = ["#264653", "#2a9d8f", "#e9c46a", "#f4a261", "#e76f51"]  # Modern Teal-Orange
 
-# Ortak Base Path (Bilgisayarınızdaki dosya yolu)
-BASE_PATH = "C:/Users/mirfe/OneDrive/Masaüstü/PIU PROJE/"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+BASE_PATH = current_dir + "/"
 
 
 # ----------------------------------------
