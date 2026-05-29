@@ -1,4 +1,4 @@
-# 🌎 Brazil E-Commerce (Olist) Analytics & Statistical Dashboard
+# 🌎 Brezilya E-Ticaret (Olist) Analiz ve İstatistik Paneli
 
 Bu proje, Brezilya'nın önde gelen e-ticaret platformu **Olist**'e ait gerçek pazar verilerini kullanarak; coğrafi dağılım, lojistik performansı, müşteri harcama alışkanlıkları ve ödeme yöntemlerini analiz eden kapsamlı bir **Veri Bilimi ve İstatistik** web uygulamasıdır. 
 
